@@ -1,0 +1,114 @@
+.left_container{
+  width: 59%;
+  float: left;
+  position: relative;
+
+  background: url("../img/img22compress.jpg");
+  background-size: 100% 100%;
+  width: 57%;
+  height: 100vh;
+  z-index: -1;
+
+}
+.slogan{
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  font-family: lato;
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slogan p{
+    margin-bottom:10px;
+}
+.logo_img{
+  width: 30%;
+  padding: 15px;
+}
+
+.how{
+  width: 92%;
+  text-align: center;
+  font-family: lato;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.right_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 43%;
+  float: right;
+  height: 100vh;
+  background-color: #FFF;
+}
+
+.form_title{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.register_form{
+  margin-top: -15px;
+  text-align: center;
+}
+.form_input{
+  width: 60%;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #000000;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Lato;
+  -webkit-appearance: none;
+  borde-radius: 0;
+}
+
+.form_title{
+  color: #000000;
+  font-family: Lato;
+}
+.input_submit{
+    width: 50%;
+    margin-top: 20px;
+    line-height: 46px;
+    border-radius: 28px;
+    background-color: transparent;
+    color: #000000
+    border: solid 2px #000000;
+    font-family: Lato;
+}
+.input_submit:hover{
+  background-color: #000000;
+  color: #FFF;
+  border-color: #000000;
+  cursor: pointer;
+}
+.video{
+  margin-top: 15px;
+  padding-left: 7%;
+}
+.terms{
+  font-family: Lato;
+  margin-top: 20px;
+}
+
+.terms_title{
+  font-size: 10px;
+  padding-left: 7%;
+}
+
+.terms_paragraph{
+  font-size: 9px;
+  color: gray;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
